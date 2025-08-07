@@ -1,0 +1,35 @@
+:root {
+    --bgcolor2: rgba(0, 0, 0, 0.68);
+    --bgcolor1: white;
+    --bgcolor3:aliceblue;
+}
+
+body {
+    background-color: var(--bgcolor2);
+    overflow: hidden;
+}
+
+.textbox {
+    width: 90vw;
+    height: 40vh;
+    color: var(--bgcolor2);
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 20vh;
+}
+
+.textbox pre {
+    font-size: 5vw;
+    font-family: "Genos", sans-serif;
+    color: var(--bgcolor1);
+}
+
+button {
+    display: flex;
+    gap: .7vw;
+    position: relative;
+    left: 93vw;
+    border: 2px solid black;
+    background-color: var(--bgcolor3);
+}
