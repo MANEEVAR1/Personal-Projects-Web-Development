@@ -1,0 +1,1 @@
+This is a practice question on CSS Variables. Currently not interactive as I have not learned JavaScript till now, but I am on the way. Meanwhile, you can toggle between light/dark mode through changing variable values. Hope you like it!⚡
