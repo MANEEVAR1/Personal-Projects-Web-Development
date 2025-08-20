@@ -1,0 +1,1358 @@
+/* small phones */
+@media only screen and (max-width:345px) and (orientation: portrait){
+  .logo p{
+    top: 21%;
+    right: 9.4vw;
+  }
+  .maintitle{
+    font-size: 6.2vw;
+  }
+  .mainpara{
+    font-size: .9rem;
+  }
+  .logo p sub{
+    right: 15vw;
+    font-size: 0.43rem;
+  }
+  .button{
+    width: 17rem;
+  }
+  .downloadbutton p{
+    padding-top: .7vh;
+  }
+  .updates img{
+    right: .5rem;
+  }
+  .updates p{
+    font-size: 1.6rem;
+    right: 6vw;
+    top: .1rem;
+  }
+  .modelversion p{
+    font-size: .7rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .modelversion span{
+    font-size: .9rem;
+  }
+}
+/* medium phones */
+@media only screen and (min-width:375px) and (max-width:425px) and (orientation: portrait){
+  .logo p{
+    top: 22%;
+  }
+  .maintitle{
+    font-size: 6.3vw;
+    /* border: 2px solid red; */
+  }
+  .mainpara{
+    font-size: 1.1rem;
+  }
+  .modelversion p{
+    font-size: .7rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .modelversion span{
+    font-size: .9rem;
+  }
+  .downloadbutton p{
+    font-size: 3.7vw;
+    padding-top: 1.6vh;
+    padding-bottom: .4vh;
+  }
+}
+/* large and xl phones */
+@media only screen and (min-width:425px) and (max-width:480px) and (orientation: portrait){
+  .logo p{
+    top: 21%;
+    right: 7.4vw;
+  }
+  .modelversion p{
+    font-size: .7rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+  }
+  .modelversion span{
+    font-size: .9rem;
+    left: 45%;
+  }
+  .flashcards{
+    height: 50vh;
+  }
+  .downloadbutton p{
+    padding-top: .8vh;
+    font-size: 2.5vh;
+  }
+  .updates img{
+    width: 23%;
+  }
+}
+/* small tablets */
+@media only screen and (min-width:768px) and (max-width:819px) and (max-height:1024px) and (orientation: portrait){
+  .logo img{
+    width: 13vw;
+    height: 9vh;
+  }
+
+  .logo p{
+    font-size:3.6vw;
+    top: 23%;
+    right: 5vw;
+  }
+
+  .maintitle img{
+    position: relative;
+    bottom: 1vh;
+    width: 12vw;
+    height: 9vh;
+  }
+
+  .searchicon,.menu{
+    /* transform: scale(1); */
+    margin-right: .5rem;
+    top: 6.1vh;
+  }
+
+  .logo p sub{
+    font-size: .7rem;
+    right: 6vw;
+  }
+
+  .mainpara{
+    font-size: 1.3rem;
+    top: 8vh;
+  }
+
+  .button{
+    padding-top: 1.3vh;
+    padding-bottom: 2.6vh;
+    top: 15vh;
+    width: 80vw;
+    height: 1vh;
+    font-size: 1rem;
+  }
+
+  .updates img{
+    width: 20%;
+    height: 50%;
+    right: 2rem;
+    top: 10.3vh;
+  }
+
+  .updates p{
+    font-size: 3rem;
+    top: 12vh;
+    right: 7vw;
+  }
+
+  .updates p span{
+    font-size: 1rem;
+    bottom: 2.5rem;
+  }
+
+  .versions{
+    display: flex;
+    gap: 2vw;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    /* top: 35vh; */
+  }
+
+  .flashcards{
+    width: 47vw;
+    height: 35vh;
+    top: 20vh;
+  }
+  .modelversion p{
+    font-size: .7rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .modelversion span{
+    font-size: .9rem;
+  }
+
+  .downloadbutton{
+    width: 80%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .downloadbutton p{
+    font-size: clamp(1rem, 2vw,1.4rem);
+    margin-top:.45vh
+  }
+
+  .flashcards .lang{
+    font-size: 2rem;
+    white-space: nowrap;
+  }
+
+  .modelversion span{
+    left: 20.2vw;
+    margin: auto;
+  }
+  .logoandname{
+    top: 17vh;
+  }
+
+  .logoandname img{
+    width: 20%;
+    height: 90%;
+  }
+
+  .logoandname p{
+    margin-top: .1vh;
+    right: 2.7vw;
+  }
+  .copy p{
+    top: 17.5vh;
+  }
+  .firstfour,.secondrow{
+    position: relative;
+    top: 5vh;
+    /* margin-top: 50vh; */
+  }
+}
+/* medium tablets */
+@media only screen and (min-width:820px) and (max-width:1023px) and (max-height:1180px) and (orientation: portrait){
+  .logo img{
+    width: 15vw;
+    height: 9vh;
+  }
+
+  .logo p{
+    font-size:3.6vw;
+    top: 23%;
+    right: 5vw;
+  }
+  .logo p sub{
+    right: 7vw;
+  }
+  .searchicon{
+    right: 6vw;
+  }
+  .menu{
+    right: 5vw;
+  }
+  .maintitle img{
+    position: relative;
+    bottom: 1vh;
+    width: 12vw;
+    height: 8vh;
+  }
+  .mainpara{
+    top: 5.5vh;
+  }
+  .button{
+    top: 10vh;
+  }
+  .updates img{
+    width: 20%;
+    height: 40%;
+    right: 2rem;
+    top: 2.7vh;
+  }
+
+  .updates p{
+    font-size: 3rem;
+    top: 4.3vh;
+    right: 7vw;
+  }
+
+  .updates p span{
+    font-size: .7rem;
+    bottom: 2.5rem;
+  }
+  .versions{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flashcards{
+    width: 47vw;
+    height: 35vh;
+    top: 10vh;
+  }
+  .flashcards .lang{
+    font-size: 4vw;
+  }
+  .downloadbutton{
+    width: 40vw;
+  }
+  .modelversion p{
+    font-size: .7rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .modelversion span{
+    font-size: .9rem;
+  }
+  .logoandname img{
+    width: 20%;
+    height: 95%;
+  }
+
+  .logoandname p{
+    font-size: 6vw;
+    margin-top: .1vh;
+    right: 2.9vw;
+  }
+  .copy p{
+    top: 9vh;
+  }
+  .firstfour.secondrow{
+    position: relative;
+    top: 16vh;
+  }
+}
+/* large tablets */
+@media only screen and (min-width:1024px) and (orientation: portrait){
+  .logo img{
+    width: 15vw;
+    height: 9vh;
+  }
+
+  .logo p{
+    font-size:3.6vw;
+    top: 23%;
+    right: 5vw;
+  }
+  .logo p sub{
+    right: 7vw;
+    font-size: .9rem;
+  }
+  .searchicon{
+    right: 6vw;
+  }
+  .menu{
+    right: 5vw;
+  }
+  .maintitle img{
+    position: relative;
+    bottom: 1vh;
+    width: 12vw;
+    height: 9vh;
+  }
+  .mainpara{
+    top: 6.5vh;
+  }
+  .button{
+    top: 10vh;
+  }
+  .updates img{
+    width: 20%;
+    height: 40%;
+    right: 2rem;
+    top: 2.7vh;
+  }
+
+  .updates p{
+    font-size: 3rem;
+    top: 4vh;
+    right: 7vw;
+  }
+
+  .updates p span{
+    font-size: .7rem;
+    bottom: 2.5rem;
+  }
+  .versions{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid rebeccapurple; */
+    /* margin: auto; */
+    /* height: 50vh; */
+  }
+  .flashcards{
+    /* margin: auto; */
+    width: 47vw;
+    height: 35vh;
+    top: 10vh;
+  }
+  .flashcards .lang{
+    font-size: 4vw;
+  }
+  .downloadbutton{
+    width: 40vw;
+    height: 5vh;
+  }
+  .modelversion p{
+    font-size: .7rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .modelversion span{
+    font-size: .9rem;
+  }
+  .logoandname img{
+    width: 20%;
+    height: 95%;
+  }
+
+  .logoandname p{
+    font-size: 6vw;
+    margin-top: .1vh;
+    right: 2.9vw;
+  }
+  .copy p{
+    top: 9vh;
+  }
+  .firstfour.secondrow{
+    position: relative;
+    top: 16vh;
+  }
+  .eng{
+    margin-bottom: 21%;
+  }
+}
+
+@media only screen and (min-width:1024px) and (max-width:1370px) and (orientation: landscape){
+  .logo img{
+    width: 7em;
+    height: 6em;
+    top: 21%;
+  }
+
+  .logo p{
+    font-size:2.3em;
+    top: .9em;
+    right: 1em;
+  }
+  .logo p sub{
+    right: 7vw;
+    font-size: .9rem;
+  }
+  .searchicon{
+    top: 11.9vh;
+    right: 8vw;
+  }
+  .menu{
+    top: 11.9vh;
+    right: 5vw;
+    /* display: none; */
+  }
+  .maintitle{
+    top: 5vh;
+  }
+  .maintitle img{
+    position: relative;
+    bottom: 1vh;
+    width: 1.45em;
+    height: 1.5em;
+  }
+  .mainpara{
+    font-size: 1.8vw;
+    top: 9em;
+    /* padding-bottom: 5vh; */
+    height: 6.5rem;
+    /* margin-bottom: .1vh; */
+    /* white-space: wrap; */
+    /* border: 2px solid rebeccapurple; */
+  }
+
+  /* .buttons{
+    margin-top: 2.9%;
+  } */
+  .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column;
+    gap: .1vh; */
+    /* margin: auto; */
+    /* margin-top: 5vh; */
+    width: 30vw;
+    top: 12.45rem;
+  }
+  .updates img{
+    width: 12vw;
+    height: 65%;
+    right: 2rem;
+    top: 26vh;
+  }
+
+  .updates p{
+    font-size: 2.8rem;
+    top: 29vh;
+    right: 5vw;
+  }
+
+  .updates p span{
+    font-size: .7rem;
+    bottom: 2.5rem;
+  }
+  .versions{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid rebeccapurple; */
+    /* margin: auto; */
+    /* height: 50vh; */
+  }
+  .flashcards{
+    /* margin: auto; */
+    width: 47vw;
+    height: 52vh;
+    top: 50vh;
+  }
+  .flashcards .lang{
+    font-size: 4vw;
+  }
+  .downloadbutton{
+    width: 40vw;
+    height: 7vh;
+  }
+  .modelversion p{
+    font-size: .7rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .modelversion span{
+    font-size: .9rem;
+    left: 22vw;
+  }
+
+  .logoandname{
+    top: 48vh;
+  }
+  .logoandname img{
+    width: 12%;
+    height: 130%;
+  }
+
+  .logoandname p{
+    font-size: 4.4vw;
+    margin-top: .1vh;
+    right: 2.5vw;
+  }
+  .copy p{
+    top: 49.8vh;
+  }
+  .socials{
+    top: 50vh;
+  }
+  
+  .eng{
+    margin-bottom: 20%;
+  }
+  .langselect{
+    display: flex;
+    position: relative;
+    top: 11.7vh;
+    right: 15vw;
+    width: 4vw;
+    height: 4vh;
+    transform: scale(1.2);
+    font-size: 1.2vw;
+    /* border: 2px solid red; */
+    align-items: center;
+    gap: .3vw;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .langselect img{
+    width: 90%;
+    height: 90%;
+  }
+
+  .buynowb{
+    display: block;
+    width: 14vw;
+    height: 5.5vh;
+    position: relative;
+    top: 11vh;
+    right: 18.3vw;
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.6vw;
+  }
+  .buynowb a{
+    text-decoration: none;
+  }
+  .buynowb a:link, :visited{
+    color: black;
+  }
+}
+/* desktops */
+@media only screen and (min-width:1371px) and (orientation: landscape){
+
+ul {
+  display: flex;
+  height: 10vh;
+  width: 50vw;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+  position: relative;
+  right: 18vw;
+  bottom: 7vh;
+  margin-top: 3.6vh;
+  white-space: nowrap;
+  padding: 4vw;
+}
+
+ul li{
+  font-size: 1.1vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li img{
+  position: relative;
+  top: .2em;
+  left: .1em;
+}
+
+ul li a{
+  text-decoration: none;
+}
+
+ul li a:link,:visited{
+  color: black;
+}
+
+.logo {
+  height: 8vh;
+  margin-top: 2vh;
+}
+
+.logo img {
+  width:100%;
+  height: 150%;
+  position: relative;
+  left: 5em;
+  top: .5em;
+}
+
+.logo p {
+  position: relative;
+  top: 3.7vh;
+  left: 3.8vw;
+  font-size: 2vw;
+}
+
+.logo p sub{
+  font-size: .8rem;
+  right: 5vw;
+}
+
+.logo a{
+  text-decoration: none;
+}
+
+.logo a:link, :visited{
+  color: black;
+}
+
+.buynowb{
+  width: 20vw;
+  height: 6vh;
+  margin-top: 8vh;
+  position: relative;
+  right: 13vw;
+  border: 2px solid black;
+  background-color: aliceblue;
+  font-weight: bolder;
+  font-size: 1.1vw;
+  border-radius: 5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buynowb:hover{
+  cursor: pointer;
+}
+
+.buynowb a{
+  text-decoration: none;
+}
+
+.buynowb a:link,:visited{
+  color: black;
+}
+
+.langselect{
+  width: 4vw;
+  height: 4vh;
+  margin-top: 9vh;
+  position: relative;
+  right: 10.3vw;
+  display: flex;
+  align-items:center;
+  gap: .3vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 1.2vw;
+}
+
+.langselect img{
+  width: 100%;
+  height: 90%;
+}
+
+.langselect:hover{
+  cursor: pointer;
+}
+
+.searchicon {
+  position: relative;
+  right: 4.8vw;
+  top: 9.7vh;
+}
+
+.menu {
+  display: none;
+}
+
+.maintitle{
+  display: flex;
+  gap: 1vw;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  top: 3.7vh;  
+}
+
+.mainpara{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.5rem;
+  position: relative;
+  top: 6.5vh;
+  width: 60vw;
+  margin: auto;
+  text-align: center;
+}
+
+.button {
+  position: relative;
+  top: 7rem;
+  border-radius: .5rem;
+  font-size: .9rem;
+}
+
+.button:hover{
+  cursor: pointer;
+  background-color: #02a4bd;
+}
+
+.updates{
+  margin-top: 10vh;
+  margin-bottom: .1rem;
+}
+
+.updates img {
+  width:6%;
+  right: 16.5vw;
+}
+
+.updates p {
+  right: 17.5vw;
+  font-weight: 400;
+  font-size: 2.8vw;
+  top: 1.5vh;
+}
+
+.updates p span {
+  font-size: 1rem;
+  bottom: 3.4em;
+  left: 23.7em;
+}
+
+.updates p span a {
+  text-decoration: none;
+}
+
+.updates p span a:link,:visited{
+  color: black;
+}
+
+.versions{
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  gap: 4vw;
+  flex-wrap: wrap;
+  position: relative;
+  top: 10vh;
+}
+
+.flashcards {
+  width: 20vw;
+  height: 40vh;
+  top: 5vh;
+  background-color: rgb(222, 235, 247);
+}
+
+.flashcards .lang {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.eng{
+  margin-bottom: 4.0em;
+}
+
+.downloadbutton {
+  width: 15vw;
+  height: 5vh;
+  margin-top: 1rem;
+}
+
+.downloadbutton p {
+  position: relative;
+  bottom: 1vh;
+  padding-top: 1.6vh;
+}
+
+.modelversion span {
+  top: 3vh;
+  left: 9vw;
+  font-size: .7vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.modelversion p {
+  position: relative;
+  top: 3vh;
+  /* font-size: .8rem; */
+  padding: .5vh 1vw;
+  font-size: .7vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flashcards p {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.logoandname img {
+  width: 7%;
+}
+
+.logoandname p{
+  position: relative;
+  bottom: .2rem;
+}
+
+.logoandname{
+  margin-top: 8vh;
+}
+
+.firstfour,
+.secondrow {
+  gap: 2.5rem;
+}
+
+.buynowb{
+  display: block;
+}
+}
+
+/* ultrawide screens */
+@media only screen and (min-width:2560px){
+  ul {
+  display: flex;
+  height: 1vh;
+  width: 30vw;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  gap: 3vw;
+  position: relative;
+  right: 18vw;
+  /* top: 1vh; */
+  bottom: 2.2vh;
+  /* margin-top: 3.6vh; */
+  white-space: nowrap;
+  padding: 3vw;
+  /* border: 2px solid blue; */
+}
+
+ul li{
+  font-size: 180%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li img{
+  position: relative;
+  width: 1vw;
+  height: 2vh;
+  top: .1vh;
+  left: .1em;
+}
+
+ul li a{
+  text-decoration: none;
+}
+
+ul li a:link,:visited{
+  color: black;
+}
+
+.logo {
+  height: 8vh;
+  margin-top: 2vh;
+}
+
+.logo img {
+  width:100%;
+  height: 150%;
+  position: relative;
+  left: 5em;
+  top: .5em;
+}
+
+.logo p {
+  position: relative;
+  top: 2.5vh;
+  left: 2vw;
+  font-size: 2.5vw;
+}
+
+.logo p sub{
+  font-size: 1vw;
+  right: 6vw;
+  top: 1.5vh;
+}
+
+.logo a{
+  text-decoration: none;
+}
+
+.logo a:link, :visited{
+  color: black;
+}
+
+.buynowb{
+  width: 25vw;
+  height: 7vh;
+  margin-top: 6vh;
+  position: relative;
+  right: 17vw;
+  border: 2px solid black;
+  background-color: aliceblue;
+  font-weight: bolder;
+  font-size: 1vw;
+  border-radius: 5%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buynowb:hover{
+  cursor: pointer;
+}
+
+.buynowb a{
+  text-decoration: none;
+}
+
+.buynowb a:link,:visited{
+  color: black;
+}
+
+.langselect{
+  width: 10vw;
+  height: 5vh;
+  margin-top: 7vh;
+  position: relative;
+  right: 12vw;
+  display: flex;
+  /* border: 2px solid red; */
+  gap: .5vw;
+  font-size: 1.2vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  align-items: center;
+}
+
+.langselect img{
+  width: 2.5vw;
+  height: 100%;
+}
+
+.langselect:hover{
+  cursor: pointer;
+}
+
+.searchicon {
+  position: relative;
+  right: 8vw;
+  top: 8.5vh;
+  transform: scale(1.8);
+  /* border: 2px solid red; */
+}
+
+.menu {
+  display: none;
+}
+
+.maintitle{
+  display: flex;
+  gap: 1vw;
+  justify-content: center;
+  align-items: center;
+  font-size: 4vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  top: 10.7vh;  
+}
+
+.mainpara{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.8vw;
+  position: relative;
+  top: 14vh;
+  width: 60vw;
+  margin: auto;
+  text-align: center;
+}
+
+.maintitle img{
+  transform: scale(1.8);
+}
+
+.button {
+  width: 40vw;
+  height: 5vh;
+  position: relative;
+  top: 26vh;
+  border-radius: .5rem;
+  font-size: 1.5vw;
+  font-weight: 500;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.button:hover{
+  cursor: pointer;
+  background-color: #02a4bd;
+}
+
+.updates{
+  margin-top: 20%;
+  /* margin-bottom: 3vh; */
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  height: 8vh;
+}
+
+.updates img {
+  position: absolute;
+  width:15em;
+  right: 76.5vw;
+  height: 90%;
+  /* height: 1em; */
+  /* top: .1vh; */
+  bottom: 1vh;
+}
+
+.updates p {
+  right: 11vw;
+  font-weight: 400;
+  font-size: 4vw;
+  top: 4vh;
+}
+
+.updates p span {
+  font-size: 1vw;
+  bottom: 5.4em;
+  left: 29.5vw;
+}
+
+.updates p span a {
+  text-decoration: none;
+}
+
+.updates p span a:link,:visited{
+  color: black;
+}
+
+.versions{
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  gap: 4vw;
+  flex-wrap: wrap;
+  position: relative;
+  top: 10vh;
+}
+
+.flashcards {
+  width: 20vw;
+  height: 50vh;
+  top: 5vh;
+  background-color: rgb(222, 235, 247);
+}
+
+.flashcards .lang {
+  text-align: center;
+  font-size: 1.3vw;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.flashcards:nth-child(odd)>p{
+  position: relative;
+  top: 6vh;
+  font-size: 1vw;
+}
+
+.flashcards:nth-child(even)>p{
+  position: relative;
+  top: 6vh;
+  font-size: 1vw;
+}
+
+.eng{
+  margin-bottom: 19.5vh;
+}
+
+.downloadbutton {
+  width: 15vw;
+  height: 5vh;
+  margin-top: 15vh;
+}
+
+.downloadbutton p {
+  font-size: 1vw;
+  position: relative;
+  /* bottom: 1vh; */
+  padding-top: 1.8vh;
+}
+
+.modelversion span {
+  top: 3vh;
+  left: 9vw;
+  font-size: .7vw;
+  /* border: 2px solid red; */
+}
+
+.modelversion p {
+  position: relative;
+  top: 3vh;
+  font-size: .7vw;
+  padding: 1rem;
+}
+
+/* .flashcards p {
+  text-align: center;
+  margin-top: 2rem;
+} */
+
+.logoandname img {
+  width: 10%;
+  height: 140%;
+}
+
+.logoandname p{
+  position: relative;
+  bottom: .6vh;
+  font-size: 3vw;
+  right: 2vw;
+}
+
+.logoandname{
+  margin-top: 10vh;
+}
+
+.firstfour,
+.secondrow {
+  gap: 3vw;
+}
+
+.buynowb{
+  display: block;
+}
+.copy p{
+  font-size: 1.2vw;
+  top: 10.5vh;
+}
+.socials img{
+  /* border: 2px solid red; */
+  width: 3.3vw;
+  height: 8vh;
+}
+.socials{
+  /* border: 2px solid red ; */
+  position: relative;
+  top: 10vh;
+}
+}
+
+/* medium large screens */
+@media only screen and (min-width:2000px) and (max-width:2559px){
+.maintitle{
+  font-size: 4.4vw;
+}
+
+.mainpara{
+  font-size: 1.7vw;
+}
+
+.updates{
+  margin-top: 10%;
+}
+
+.updates img {
+  position: absolute;
+  width:12em;
+  right: 70.5vw;
+  height: 50%;
+  bottom: 3.8vh;
+}
+
+.updates p{
+  font-size: 3vw;
+  right: 9vw;
+top: 2.6vh;
+}
+
+.updates p span {
+  font-size: 1.1vw;
+  bottom: 3.8em;
+  left: 26vw;
+}
+
+  .logo{
+    /* border: 2px solid green; */
+    width: 60vw;
+    display: flex;
+    gap: .1%;
+  }
+  .logo img {
+    /* transform: translateX(3vw); */
+  width:100%;
+  height: 150%;
+  position: relative;
+  left: 2em;
+  top: .5em;
+  /* border: 2px solid red; */
+  padding: 0;
+  display: block;
+  /* border-radius: 180px; */
+}
+
+.logo p {
+  transform: translateX(-6vw);
+  position: relative;
+  top: 3.1vh;
+  /* left: 1vw; */
+  /* right: 13vw; */
+  font-size: 2.5vw;
+  /* border: 2px solid rebeccapurple; */
+}
+
+.logo p sub{
+  font-size: 1vw;
+  right: 7vw;
+}
+
+.buynowb{
+  width: 18vw;
+  right: 16vw;
+  font-size: 1.1vw;
+}
+.langselect{
+  right: 13vw;
+  font-size: 1.3vw;
+  top: .5vh;
+}
+
+.langselect img{
+  width: 2.8vw;
+}
+
+.searchicon{
+  right: 6vw;
+  top: 8vh;
+  transform: scale(1.4);
+}
+
+ul{
+  bottom: 7.4vh;
+  right: 17vw;
+  /* left: 1vw; */
+}
+
+ul li{
+  font-size: 1.4vw;
+}
+
+ul li img{
+  width: 1vw;
+  height: 2vh;
+  top: .2vh;
+}
+
+.button {
+  top: 13vh;
+  width: 34vw;
+  height: 3vh;
+  font-size: 1.3vw;
+} 
+
+.flashcards {
+  width: 23vw;
+  height: 40vh;
+} 
+
+.downloadbutton {
+  height: 3.3vh;
+  margin-top: 10vh;
+}
+
+.flashcards .lang{
+  font-size: 1.7vw;
+}
+
+.eng{
+margin-bottom: 14.3vh;
+}
+
+.flashcards:nth-child(odd)>p{
+  position: relative;
+  top: 3.8vh;
+  font-size: 1vw;
+}
+
+.flashcards:nth-child(even)>p{
+  position: relative;
+  top: 3.8vh;
+  font-size: 1vw;
+}
+
+.modelversion span {
+  left: 10.55vw;
+} 
+
+.logoandname p{
+  font-size: 3vw;
+}
+
+.logoandname img {
+  width: 9%;
+  height: 110%;
+}
+
+.copy p{
+  font-size: 1.4vw;
+  top: 9vh;
+}
+
+.socials img{
+  width: 3.4vw;
+  height:6vh;
+}
+
+}
