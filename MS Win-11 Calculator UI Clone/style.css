@@ -1,0 +1,539 @@
+.layout {
+    width: 24vw;
+    height: 89vh;
+    border: 1px solid rgba(0, 0, 0, 0.799);
+    margin: auto;
+    border-radius: 12px;
+    position: relative;
+    top: 5vh;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 8.2px;
+    border-top-right-radius: 8.2px;
+    filter: drop-shadow(2px 2px 10px black);
+}
+
+.nav {
+    height: 5vh;
+    border-top-right-radius: 7.3px;
+    border-top-left-radius: 7.3px;
+    background-color: #252526fb;
+    display: flex;
+}
+
+.nav img {
+    position: relative;
+    left: .8vw;
+    top: .7vh;
+}
+
+.nav .appname {
+    position: relative;
+    left: 1.6vw;
+    top: 1vh;
+    font-weight: 500;
+    color: white;
+    font-size: .85vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 4vw;
+    height: 2.2vh;
+}
+
+.nav .appname:hover {
+    cursor: default;
+}
+
+.navicons {
+    gap: 1.5vw;
+    display: flex;
+    position: relative;
+    left: 9.5vw;
+    bottom: .1vh;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    height: 4vh;
+    color: white;
+    border-top-right-radius: 7.3px;
+}
+
+.minus {
+    display: flex;
+    justify-content: center;
+    width: 1.2vw;
+    padding: 1.5vh;
+    position: relative;
+    align-items: center;
+    top: .1vh;
+    height: 1.1vh;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    padding: 1.8vh;
+    position: relative;
+    align-items: center;
+    top: .3vh;
+    height: .8vh;
+}
+
+.cross {
+    display: flex;
+    height: 1.7vh;
+    justify-content: center;
+    padding: 1.5vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.3vh;
+    align-items: center;
+    border-top-right-radius: 7.9px;
+    position: relative;
+    right: .3vw;
+    top: .25vh;
+}
+
+.minus:hover {
+    background-color: #3e3e3e;
+    cursor: default;
+}
+
+.square:hover {
+    background-color: #3e3e3e;
+    cursor: default;
+}
+
+.cross:hover {
+    background-color: rgba(255, 0, 0, 0.733);
+    cursor: default;
+}
+
+.calcarea {
+    width: 24vw;
+    height: 24vh;
+    background-color: #252526fb;
+}
+
+.components {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 1vh;
+}
+
+.ham {
+    width: 2vw;
+    height: 2vh;
+    position: relative;
+    left: .1vw;
+    display: flex;
+    justify-content: center;
+    padding: 1vh .25vw;
+    transition: background-color .2s ease-out .1s;
+    ;
+}
+
+.components .ham:hover {
+    background-color: #3e3e3e;
+    border-radius: 10%;
+    cursor: default;
+}
+
+.components span {
+    font-size: 1.3vw;
+    font-weight: 500;
+    position: relative;
+    left: .27vw;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.newtab {
+    width: 2vw;
+    height: 2.3vh;
+    position: relative;
+    left: .5vw;
+    top: .2vh;
+    display: flex;
+    justify-content: center;
+    padding: 1vh .25vw;
+    transition: background-color .2s ease-out .1s;
+}
+
+.newtab img {
+    transform: scale(1.1);
+}
+
+.newtab:hover {
+    background-color: #3e3e3e;
+    border-radius: 10%;
+    cursor: default;
+}
+
+.history {
+    width: 2vw;
+    height: 2.3vh;
+    position: relative;
+    left: 11vw;
+    top: .2vh;
+    display: flex;
+    justify-content: center;
+    padding: 1vh .25vw;
+    transition: background-color .2s ease-out .1s;
+}
+
+.history:hover {
+    background-color: #3e3e3e;
+    border-radius: 10%;
+    cursor: default;
+}
+
+.numzero {
+    position: relative;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    justify-content: right;
+    width: 97.1%;
+    height: 9vh;
+    top: 5.7vh;
+    font-size: 2.8vw;
+    color: white;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: border .2s ease-in .1s;
+    padding-right: .4vw;
+    padding-bottom: 4vh;
+}
+
+.numzero:hover {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.functions {
+    display: flex;
+    gap: 2.1vw;
+    position: relative;
+    justify-content: space-evenly;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 3.5%;
+    font-size: .9vw;
+    color: white;
+    background-color: #252526fb;
+}
+
+.functions span:nth-child(1) {
+    color: rgba(141, 138, 138, 0.979);
+}
+
+.functions span:nth-child(2) {
+    color: rgba(141, 138, 138, 0.979);
+}
+
+.functions div:nth-child(3) {
+    width: 2.5vw;
+    display: flex;
+    justify-content: center;
+    transition: background-color .2s ease-out .1s;
+}
+
+.functions div:nth-child(4) {
+    width: 2.5vw;
+    display: flex;
+    justify-content: center;
+    transition: background-color .2s ease-out .1s;
+}
+
+.functions div:nth-child(5) {
+    width: 2.5vw;
+    display: flex;
+    justify-content: center;
+    transition: background-color .2s ease-out .1s;
+}
+
+.functions span:nth-child(6) {
+    color: rgba(141, 138, 138, 0.979);
+}
+
+.functions img {
+    position: relative;
+    top: .35vh;
+    transform: scale(1.1);
+}
+
+.numpad {
+    background-color: #252526fb;
+    height: 64%;
+    display: grid;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: .1vh .1%;
+    align-content: center;
+}
+
+.numpad span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .1vh;
+    margin-left: .1vw;
+    margin-right: .3vw;
+    margin-bottom: .5vh;
+    width: 96%;
+    height: 85%;
+    border-radius: 5%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.numpad span:nth-child(1) {
+    background-color: #353535;
+}
+
+.numpad span:nth-child(2) {
+    background-color: #353535;
+}
+
+.numpad span:nth-child(3) {
+    background-color: #353535;
+}
+
+.numpad span:nth-child(4) {
+    background-color: #353535;
+}
+
+.numpad span:nth-child(5) {
+    background-color: #353535;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.numpad span:nth-child(6) {
+    background-color: #353535;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.numpad span:nth-child(7) {
+    background-color: #353535;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.numpad span:nth-child(8) {
+    background-color: #353535;
+}
+
+.numpad span:nth-child(12) {
+    background-color: #353535;
+}
+
+.numpad span:nth-child(16) {
+    background-color: #353535;
+    font-size: 2vw;
+}
+
+.numpad span:nth-child(20) {
+    background-color: #353535;
+    font-size: 1.4vw;
+}
+
+.numpad span:nth-child(9) {
+    background-color: #414141cf;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(10) {
+    background-color: #414141cf;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(11) {
+    background-color: #414141cf;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(13) {
+    background-color: #414141cf;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(14) {
+    background-color: #414141cf;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(15) {
+    background-color: #414141cf;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(17) {
+    background-color: #414141cf;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(18) {
+    background-color: #414141cf;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(19) {
+    background-color: #414141cf;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(21) {
+    background-color: #414141cf;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(22) {
+    background-color: #414141cf;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(23) {
+    background-color: #414141cf;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(24) {
+    background-color: deepskyblue;
+    color: black;
+    font-size: 1.6vw;
+}
+
+.numpad span:nth-child(1):hover {
+    background-color: #414141cf;
+}
+
+.numpad span:nth-child(2):hover {
+    background-color: #414141cf;
+}
+
+.numpad span:nth-child(3):hover {
+    background-color: #414141cf;
+}
+
+.numpad span:nth-child(4):hover {
+    background-color: #414141cf;
+}
+
+.numpad span:nth-child(5):hover {
+    background-color: #414141cf;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.numpad span:nth-child(6):hover {
+    background-color: #414141cf;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.numpad span:nth-child(7):hover {
+    background-color: #414141cf;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.numpad span:nth-child(8):hover {
+    background-color: #414141cf;
+}
+
+.numpad span:nth-child(12):hover {
+    background-color: #414141cf;
+}
+
+.numpad span:nth-child(16):hover {
+    background-color: #414141cf;
+}
+
+.numpad span:nth-child(20):hover {
+    background-color: #414141cf;
+}
+
+.numpad span:nth-child(9):hover {
+    background-color: #353535;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(10):hover {
+    background-color: #353535;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(11):hover {
+    background-color: #353535;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(13):hover {
+    background-color: #353535;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(14):hover {
+    background-color: #353535;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(15):hover {
+    background-color: #353535;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(17):hover {
+    background-color: #353535;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(18):hover {
+    background-color: #353535;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(19):hover {
+    background-color: #353535;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(21):hover {
+    background-color: #353535;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(22):hover {
+    background-color: #353535;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(23):hover {
+    background-color: #353535;
+    font-size: 1.3vw;
+}
+
+.numpad span:nth-child(24):hover {
+    background-color: rgb(9, 179, 236);
+    color: black;
+    font-size: 1.6vw;
+}
+
+.functions div:nth-child(3):hover {
+    background-color: #3e3e3e;
+    cursor: pointer;
+}
+
+.functions div:nth-child(4):hover {
+    background-color: #3e3e3e;
+    cursor: pointer;
+}
+
+.functions div:nth-child(5):hover {
+    background-color: #3e3e3e;
+    cursor: pointer;
+}
