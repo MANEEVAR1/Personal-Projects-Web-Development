@@ -14,10 +14,10 @@ A growing collection of mini web development projects built while learning and p
 | 🔐 `Sign Up Cards` | Google Pay & Pinterest sign-in page clones |
 | ⛵ `boAt Catalogue Cards` | Product showcase cards for boAt lifestyle products |
 | 🪪 `SnapCard` | Dynamic profile card creation |
-| 🪪 `BMI Calculator` | Dynamic BMI calculation with auto reset |
-| 🪪 `Download Progress Bar` | Simulation of a download bar from 0-100% |
-| 🪪 `Email Password Validator` | Validation of user input in email & password format |
-| 🪪 `Real Time Search Filter` | Real time search results for people |
+| ⚖️ `BMI Calculator` | Dynamic BMI calculation with auto reset |
+| ⬇️ `Download Progress Bar` | Simulation of a download bar from 0-100% |
+| 🔐 `Email Password Validator` | Validation of user input in email & password format |
+| 🔍 `Real Time Search Filter` | Real time search results for people |
 
 > Each folder contains its own `README.md` with project-specific details.
 
