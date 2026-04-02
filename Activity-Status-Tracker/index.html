@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity Status Tracker v1.0</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-color: bisque;
+            display: flex;
+            align-items: center;
+            /* done */
+            justify-content: center;
+            overflow-y: hidden;
+        }
+
+        .info .toggle-color {
+            margin-left: 100%;
+            position: relative;
+            /* done*/
+            bottom: 20px;
+        }
+
+        .card {
+            width: 550px;
+            height: 300px;
+            border: 2px solid transparent;
+            border-radius: 40px;
+            display: flex;
+            /* done */
+            align-items: center;
+            background-color: black;
+            margin: 200px auto 100px auto;
+        }
+
+        @media only screen and (min-width:320px) and (max-width:569px) and (orientation: portrait) {
+            .card {
+                max-width: 300px;
+                height: 500px;
+                flex-direction: column;
+                margin: 70px auto;
+            }
+
+            .card .pfp {
+                top: 10px;
+                min-width: 40%;
+                transform: scale(1.2);
+            }
+
+            .info {
+                max-width: 70%;
+                margin: 0px 40px 40px 25px;
+                padding: 2px;
+            }
+
+            .info .toggle-color {
+                bottom: 210px;
+                right: 5px;
+            }
+
+            .info .btn {
+                right: 4px;
+                min-height: 35px;
+                bottom: 30px;
+            }
+
+            .info h2,
+            h3 {
+                bottom: 40px;
+            }
+
+        }
+
+        @media only screen and (min-width:642px) and (max-width:768px) and (orientation: landscape) {
+            .card {
+                margin-top: 8px;
+            }
+        }
+
+        .card .pfp {
+            display: flex;
+            min-width: 30%;
+            height: 70%;
+            align-items: center;
+            /* done */
+            position: relative;
+            left: 5px;
+            justify-content: center;
+        }
+
+        .pfp img {
+            box-sizing: border-box;
+            max-width: 180px;
+            max-height: 160px;
+            width: 90%;
+            /* done */
+            border-radius: 50%;
+            transform: scale(1.05);
+        }
+
+        .info {
+            width: 300px;
+            height: 250px;
+            display: flex;
+            flex-direction: column;
+            /* done*/
+            position: relative;
+            top: 15px;
+            left: 20px;
+            padding: 15px;
+        }
+
+        .info h2,
+        h3 {
+            font-family: "Cormorant Garamond", serif;
+            color: white;
+            position: relative;
+            /* done*/
+        }
+
+        .info span {
+            color: gold;
+            /* done*/
+        }
+
+        .info .btn {
+            width: 40%;
+            height: 15%;
+            background-color: lime;
+            border-radius: 20px;
+            position: relative;
+            /* done */
+            right: 10px;
+            font-family: "Courier Prime", monospace;
+            font-weight: bold;
+            font-size: medium;
+            margin: auto;
+        }
+
+        .info .btn:hover {
+            cursor: pointer;
+            /* done */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="pfp">
+            <img src="Screenshot 2026-02-20 203238.png" alt="maneev arora">
+        </div>
+        <div class="info">
+            <div class="toggle-color">🟢</div>
+            <h2><span>Username:</span> _mnv.5</h2>
+            <h3><span>Bio:</span> Just a guy who loves spinning around Tech, AI, Start-Ups & Finance🚀</h3>
+            <button class="btn">Active</button>
+        </div>
+    </div>
+</body>
+<script>
+        const button = document.querySelector(".btn")
+        const indicator = document.querySelector(".toggle-color")
+    function statusChange() {
+        if (button.textContent === "Active") {
+            button.textContent = "InActive"
+            button.style.backgroundColor = "red"
+            indicator.textContent = "🔴"
+        }
+        else if (button.textContent === "InActive") {
+            button.textContent = "Active"
+            button.style.backgroundColor = "lime"
+            indicator.textContent = "🟢"
+        }
+    }
+    button.addEventListener('click', statusChange)
+</script>
+
+</html>

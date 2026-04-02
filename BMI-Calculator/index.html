@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="shortcut icon" href="./src/bmi.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            /* mera code */
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            user-select: none;
+        }
+
+        h1 {
+            position: absolute;
+            /* top: 30px; */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* font-size: 40px; */
+            color: darkgoldenrod;
+            -webkit-text-stroke: .6px black;
+            text-shadow: 3px 3px 15px darkgoldenrod;
+        }
+
+        h4 {
+            position: absolute;
+            /* top: 90px; */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: firebrick;
+            -webkit-text-stroke: .6px black;
+            font-style: italic;
+            text-shadow: 3px 3px 15px darkgoldenrod;
+        }
+
+        /* .main img {
+            width: 100%;
+            height: 100%;
+            opacity: .3;
+            object-fit: cover;
+        } */
+
+
+        .num-val {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 700;
+        }
+
+        a {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: italic;
+            font-weight: 500;
+            color: blue;
+        }
+
+        a:visited {
+            color: blue;
+        }
+
+        /* .th-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        } */
+
+        .th-val {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            /* font-size: 24px; */
+            font-weight: 700;
+        }
+
+        /* form {
+            position: absolute;
+            top: 25%;
+        } */
+
+        form div {
+            display: flex;
+            margin-bottom: 12px;
+        }
+
+        form label {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            /* font-size: 1.5rem; */
+            font-weight: 700;
+            margin-right: 7px;
+        }
+
+        form input {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            /* width: 220px; */
+            padding: 2px;
+            border: 2px solid rgba(0, 0, 0, 0.694);
+            border-radius: 5px;
+        }
+
+        input::placeholder {
+            color: rgba(0, 0, 0, 0.63);
+        }
+
+        #btn {
+            /* position: absolute; */
+            /* top: 27%; */
+            padding: 10px 40px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 600;
+            font-size: medium;
+            background-color: green;
+            color: aliceblue;
+            cursor: pointer;
+            z-index: 999;
+        }
+
+        .category {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+
+        /* .category span{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        } */
+
+        /* #bmi-classes img {
+            width: 100%;
+            height: 100%;
+            opacity: 1;
+        } */
+    </style>
+    <link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body>
+    <div class="main w-full h-full flex flex-col items-center justify-center relative">
+        <h1 class="text-[40px] max-sm:text-3xl sm:top-2 max-sm:top-2 md:text-5xl">BMI Calculator</h1>
+        <h4 class="max-sm:text-center max-sm:text-md max-sm:top-12 top-22.5 sm:top-16 md:text-xl">"The only bad workout
+            is the one that
+            didn't happen."</h4>
+        <img src="https://images.unsplash.com/photo-1604256913815-e144e290cec2?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="weigh-machine" class="w-full h-full object-cover opacity-[0.3]">
+        <div
+            class="values max-sm:w-fit max-sm:h-fit w-125 h-57.5 flex flex-col items-center justify-center absolute top-24 max-sm:top-38 text-center sm:top-10 md:top-24">
+            <p class="num-val text-[44px] max-sm:text-xl max-sm:h-fit max-sm:w-fit sm:text-3xl md:text-4xl">BMI
+                Loading....</p>
+            <div class="th-link flex items-center justify-center gap-0.5">
+                <h5 class="th-val text-2xl max-sm:text-lg md:text-3xl"></h5>
+                <a href="https://en.wikipedia.org/wiki/Body_mass_index" target="_blank"
+                    class="text-lg max-sm:text-sm font-light"></a>
+            </div>
+        </div>
+        <div
+            class="category absolute max-sm:top-64 flex flex-col max-sm:items-center justify-center font-bold max-sm:text-xl text-center gap-2 sm:text-2xl md:text-3xl md:top-98">
+            Verdict<p>Loading....</p>
+        </div>
+        <form class="absolute max-sm:bottom-36 sm:bottom-18 md:bottom-98 xl:bottom-32">
+            <div>
+                <label for="name" class="max-sm:text-lg text-2xl md:text-3xl">Name: </label>
+                <input type="text" id="name" placeholder="Enter Your Name" class="md:w-66 md:h-10 md:text-xl max-sm:w-56 max-sm:h-10">
+            </div>
+            <div>
+                <label for="height" class="max-sm:text-lg text-2xl md:text-3xl">Height: </label>
+                <input type="number" id="height" min="50" max="120" placeholder="Enter Your Height (in cm)"
+                    class="md:w-66 md:h-10 md:text-xl max-sm:w-56 max-sm:h-10">
+            </div>
+            <div>
+                <label for="weight" class="max-sm:text-lg text-2xl md:text-3xl">Weight: </label>
+                <input type="number" id="weight" min="10" max="300" placeholder="Enter Your Weight (in kg)"
+                    class="md:w-66 md:h-10 md:text-xl max-sm:w-56 max-sm:h-10">
+            </div>
+        </form>
+        <button id="btn" type="button"
+            class="absolute max-sm:bottom-24 sm:bottom-6 md:bottom-54 md:scale-150 md:text-2xl xl:bottom-18">Calculate BMI</button>
+        <!-- <div class="category absolute max-sm:bottom-32 flex flex-col max-sm:items-center justify-center max-sm:font-bold max-sm:text-lg">Category: <span class="max-sm:text-lg max-sm:font-bold"></span></div> -->
+        <!-- <div id="bmi-classes">
+            <img src="https://raw.githubusercontent.com/nikhilhuh/Web-Practice-Projects/refs/heads/main/BMI%20Calculator/images/bmi-classification.jpg"
+                alt="bmi-classes">
+        </div> -->
+    </div>
+</body>
+<script src="scripts.js"></script>
+
+</html>

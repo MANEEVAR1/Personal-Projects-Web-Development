@@ -1,0 +1,255 @@
+.box {
+  width: 25vw;
+  height: 80vh;
+  border: 2px solid black;
+  border-radius: 1.5vw;
+  box-shadow: 4px 2px 15px 1px rgba(0, 0, 0, 0.607);
+  margin: auto;
+  margin-top: 13.1vh;
+}
+
+.box .logo {
+  width: 70%;
+  height: 45%;
+  margin: auto;
+  position: relative;
+  bottom: 12.5vh;
+}
+
+.box .logo img {
+  width: 100%;
+  height: 100%;
+  margin-top: 9vh;
+}
+
+.box .title {
+  text-align: center;
+  font-size: 1.5vw;
+  position: relative;
+  bottom: 10vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.box form {
+  text-align: center;
+  position: relative;
+  bottom: 7.5vh;
+}
+
+.box form input {
+  width: 90%;
+  min-height: 5vh;
+  border-radius: 0.3vw;
+}
+
+.box form .button {
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 3.5vh;
+  font-size: 1.1vw;
+  background-color: #1575e6;
+  border: 2px solid black;
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.box form .button span {
+  color: white;
+}
+
+.box form .button:hover {
+  cursor: pointer;
+}
+
+.box form .button:link,
+:visited {
+  color: white;
+}
+
+.frgtpw {
+  position: relative;
+  bottom: 7vh;
+  display: inline;
+  margin-left: 0.5vw;
+  font-family: "Poppins", sans-serif;
+  color: #1575e6;
+}
+
+.frgtpw a {
+  text-decoration: none;
+}
+
+.frgtpw a:link,
+:visited {
+  color: #1575e6;
+}
+
+.signup {
+  text-align: center;
+  position: relative;
+  bottom: 3vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.signup span {
+  color: #1575e6;
+}
+
+.signup span a {
+  text-decoration: none;
+}
+
+.signup span a:link,
+:visited {
+  color: #1575e6;
+}
+
+/* media queries */
+@media only screen and (min-width:320px) and (max-width:425px) {
+  .box {
+    width: 85vw;
+  }
+
+  .box .title {
+    font-size: 5vw;
+  }
+
+  .box form .button {
+    font-size: 4vw;
+  }
+
+  .frgtpw {
+    font-size: 3.5vw;
+  }
+}
+
+@media only screen and (min-width:375px) and (max-width:424px) {
+  .box form .button {
+    height: 4vh;
+  }
+
+  .signup {
+    font-size: 4vw;
+  }
+}
+
+@media only screen and (min-width:425px) and (max-width:630px) {
+  .box {
+    width: 60%;
+    height: 80vh;
+  }
+  .box .title {
+    font-size: 3vw;
+  }
+  .box form .button {
+    font-size: 2.6vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frgtpw {
+    font-size: 2vw;
+  }
+  .signup {
+    font-size: 2.5vw;
+  }
+}
+
+@media only screen and (min-width:631px) and (max-width:768px){
+  .box {
+    width: 50%;
+    height: 85vh;
+  }
+  .box .title {
+    font-size: 3vw;
+  }
+  .box form .button {
+    font-size: 2vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frgtpw {
+    font-size: 2vw;
+  }
+  .signup {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+  .box {
+    width: 40%;
+    height: 90vh;
+  }
+  .box .title {
+    font-size: 2.2vw;
+  }
+  .box form .button {
+    font-size: 1.7vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frgtpw {
+    font-size: 1.4vw;
+  }
+  .signup {
+    font-size: 1.7vw;
+  }
+}
+
+@media only screen and (min-width:1025px) and (max-width:1440px){
+  .box {
+    width: 30%;
+    height: 95vh;
+  }
+  .box .title {
+    font-size: 1.85vw;
+  }
+  .box form .button {
+    font-size: 1.3vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frgtpw {
+    font-size: 1.1vw;
+  }
+  .signup {
+    font-size: 1.35vw;
+  }
+}
+
+@media only screen and (min-width:1441px) and (max-width:2800px){
+  .box {
+    width: 30%;
+    height: 95vh;
+  }
+  .box .title {
+    font-size: 1.85vw;
+  }
+  .box form .button {
+    font-size: 1.3vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .frgtpw {
+    font-size: 1.1vw;
+  }
+  .signup {
+    font-size: 1.35vw;
+  }
+  .box form input{
+    font-size: .9vw;
+  }
+}   /* main media queries end */
+

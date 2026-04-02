@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maneev Arora | Web Development</title>
+    <link rel="shortcut icon" href="crown.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        body {
+            position: relative;
+            font-family: "Instrument Serif", serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;
+            /* background: -webkit-linear-gradient(to right, #eaafc8, #654ea3); */
+            /* Chrome 10-25, Safari 5.1-6 */
+            /* background: linear-gradient(2deg, rgba(145, 71, 1, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(55, 237, 216, 1) 100%); */
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            margin: 0;
+            padding: 40px;
+            overflow-x: hidden;
+            /* min-height: 100vh; */
+            /* background-repeat: no-repeat; */
+            /* background-attachment: fixed; */
+            /* background-position: center; */
+        }
+
+        body::before {
+            /* before creates a virtual element/layer which holds my gradient layer fixed here. */
+            content: "";
+            position: fixed;
+            /* inset: 0; */
+            /* shorthand for top, right, bottom, left:0. But only works with position applied. */
+            background: linear-gradient(2deg, rgba(145, 71, 1, 1) 0%, rgba(0, 0, 0, 1) 50%, rgba(55, 237, 216, 1) 100%);
+            width: 100vw;
+            inset: 0;
+            height: 100vh;
+            z-index: -1;
+        }
+
+        h1 {
+            margin-bottom: 40px;
+            width: fit-content;
+            display: inline-block;
+            font-family: "Instrument Serif", serif;
+            font-weight: 400;
+            font-style: normal;
+            color: whitesmoke;
+            font-size: 40px;
+            -webkit-text-stroke: .4px lime;
+            text-shadow: 5px 5px 25px black;
+        }
+
+        .project-list {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+        }
+
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            padding: 12px 20px;
+            background-color: black;
+            color: white;
+            border-radius: 8px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all .2s ease-in .1s;
+        }
+
+        a:hover {
+            background-color: #444;
+        }
+
+        .left {
+            position: relative;
+            right: 25%;
+            animation: bounce 4s ease-in-out .1s infinite alternate
+        }
+
+        /* .left:hover{
+            background-color: royalblue;
+        } */
+        .right {
+            position: relative;
+            left: 25%;
+            animation: bounce 4s ease-in-out .1s infinite alternate
+        }
+
+        #parent {
+            margin: auto;
+            width: 90%;
+            height: 90vh;
+        }
+
+        @media (max-width: 374px) {
+            #parent {
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+        }
+
+        @media (max-width: 425px) {
+            #parent {
+                width: 100%;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+        }
+
+        @keyframes bounce {
+            0% {
+                transform: translateY(0) rotate(0deg);
+            }
+
+            25% {
+                transform: translateY(40px) rotate(90deg);
+            }
+
+            50% {
+                transform: translateY(0px) rotate(180deg);
+            }
+
+            75% {
+                transform: translateY(40px) rotate(270deg);
+            }
+
+            100% {
+                transform: translateY(0px) rotate(360deg);
+            }
+        }
+
+        /* @keyframes rotate{
+            0%{
+                transform: rotate(0);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        } */
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <h1>My Web Development Projects</h1>
+
+        <div class="project-list">
+            <a href="Calculator Clone/" class="left">Win-11 Calculator Clone</a>
+            <a href="Lake Visit Card/" class="right">Lake Visit Card</a>
+            <a href="Activity-Status-Tracker/" class="left">Activity Status Tracker</a>
+            <a href="Sign-Up-Cards/" class="right">Sign Up Cards</a>
+            <a href="boAt Catalogue Cards/" class="left" style="margin-bottom: 50px;">boAt Catalogue Cards</a>
+            <a href="SnapCard/" class="right">SnapCard v0</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

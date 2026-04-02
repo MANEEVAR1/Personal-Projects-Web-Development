@@ -1,0 +1,102 @@
+body {
+    background-color: burlywood;
+}
+
+.outer {
+    border: none;
+    width: 90%;
+    max-width: 390px;
+    min-width: 320px;
+    height: 90vh;
+    max-height: 630px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgba(240, 255, 240, 0.678);
+    box-shadow: 2px 2px 5px 2px black;
+    margin-bottom: 20px;
+}
+
+.inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.in1 {
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.txt {
+    margin-left: 20px;
+    margin-top: 15px;
+    display: inline-flex;
+    height: 3%;
+    width: 20%;
+    border-radius: 50em;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Cabin", sans-serif;
+    background-color: rgb(171, 219, 219);
+}
+
+.txt1 {
+    margin-left: 15px;
+    display: inline-flex;
+    height: 3%;
+    width: 20%;
+    border-radius: 40em;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    margin-left: 20px;
+    margin-top: 35px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Pompiere", sans-serif;
+}
+
+.head1 {
+    margin-left: 20px;
+    margin-top: 12px;
+    font-size: 18px;
+    font-weight: light;
+    font-family: "Funnel Display", sans-serif;
+}
+
+.button {
+    height: 5%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    margin-top: 25px;
+    margin-left: 32%;
+    font-family: "Cabin", sans-serif;
+    color: darkblue;
+    background-color: rgba(135, 207, 235, 0.468);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: whitesmoke;
+    background-color: rgba(35, 128, 227, 0.678);
+}
+@media only screen and (min-width:320px) and (max-width: 2559px){
+    .outer{
+        min-height: 700px;
+        max-height: 750px;
+        width: 90%;
+        min-width: 300px;
+    }
+    .button{
+        position: relative;
+        top: 3vh;
+    }
+}

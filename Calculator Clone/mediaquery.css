@@ -1,0 +1,729 @@
+/* small phones (320px - 375px) */
+@media only screen and (min-width:320px) and (max-width:375px) and (orientation: portrait){
+    .layout{
+        width: 88vw;
+    }
+
+    .nav .appname{
+        font-size: 4vw;
+    }
+
+    .navicons{
+        left: 45vw;
+        gap: 3vw;
+    }
+
+    .minus{
+        bottom: .5vh;
+        width: 4vw;
+        top: .45vh;
+        padding: 1.8vh;
+    }
+
+    .square{
+        left: 1vw;
+        top: .5vh;
+        width: 4.4vw;
+        padding: 2.1vh;
+    }
+
+    .cross{
+        top: .6vh;
+        padding: 11.2%;
+        padding-right: 1.45rem;
+        right: .1rem;
+    }
+
+    .calcarea{
+        width: 100%;
+    }
+
+    .components{
+        left: 3vw;
+        gap: 4vw;
+    }
+
+    .components .ham{
+        width: 7.5vw;
+    }
+
+    .components span{
+        font-size: 4.5vw;
+    }
+
+    .newtab{
+        width: 7.5vw;
+    }
+
+    .history{
+        left: 30vw;
+        width: 7.3vw;
+    }
+
+    .numzero{
+        font-size: 10vw;
+        padding-top: 3vh;
+        height: 4vh;
+        width: 98.2%;
+        align-items: center
+    }
+
+    .functions{
+        font-size: 4vw;
+        gap: 3vw;
+        justify-content: space-around;
+    }
+
+    .functions div:nth-child(3){
+        width: 13vw;
+    }
+
+    .functions div:nth-child(4){
+        width: 13vw;
+    }
+
+    .functions div:nth-child(5){
+        width: 13vw;
+    }
+
+    .functions span:nth-child(6){
+        position: relative;
+        bottom: .4vh;
+    }
+
+    .functions img{
+        top: .5vh;
+    }
+
+    .numpad span{
+        font-size: 4.2vw;
+        margin-left: .5vw;
+    }
+
+    .numpad span:nth-child(9){
+        font-size: 5vw;
+    }
+
+    .numpad span:nth-child(10){
+        font-size: 5vw;
+    }
+
+    .numpad span:nth-child(11){
+        font-size: 5vw;
+    }
+
+    .numpad span:nth-child(13){
+        font-size: 5vw;
+    }
+
+    .numpad span:nth-child(14){
+        font-size: 5vw;
+    }
+
+    .numpad span:nth-child(15){
+        font-size: 5vw;
+    }
+
+    .numpad span:nth-child(17){
+        font-size: 5vw;
+    }
+
+    .numpad span:nth-child(18){
+        font-size: 5vw;
+    }
+
+    .numpad span:nth-child(19){
+        font-size: 5vw;
+    }
+
+    .numpad span:nth-child(21){
+        font-size: 5vw;
+    }
+
+    .numpad span:nth-child(22){
+        font-size: 5vw;
+    }
+
+    .numpad span:nth-child(23){
+        font-size: 5vw;
+    }
+
+    .numpad span:nth-child(24){
+        font-size: 6vw;
+    }
+     .numpad span:nth-child(20){
+        font-size: 5vw;
+    }
+    .numpad span:nth-child(16){
+        font-size: 5vw;
+    }
+}
+
+/* medium phones (375px - 425px) */
+@media only screen and (min-width:375px) and (max-width:425px) and (orientation: portrait){
+    .layout{
+        width: 78vw;
+    }
+
+    .nav .appname{
+        font-size: 3.5vw;
+    }
+
+    .navicons{
+        left: 37.5vw;
+        gap: 3.7vw;
+    }
+
+    .minus{
+        top: .5vh;
+        width: 4vw;
+        padding: 1.8vh;
+    }
+
+    .square{
+        width: 4.4vw;
+        padding: 2.1vh;
+        left: 1vw;
+        top: .5vh;
+    }
+
+    .cross{
+        top: .55vh;
+        height: 1vh;
+        padding: 2.1vh;
+        width: 1.8vw;
+        right: 1.4vw;
+    }
+
+    .calcarea{
+        width: 100%;
+    }
+
+    .components{
+        left: .5vw;
+        gap: 3vw;
+    }
+
+    .components .ham{
+        width: 7.5vw;
+    }
+
+    .components span{
+        font-size: 4.5vw;
+    }
+
+    .newtab{
+        width: 7.5vw;
+    }
+
+    .history{
+        left: 25.5vw;
+        width: 7.5vw;
+    }
+
+    .numzero{
+        font-size: 10vw;
+        padding-top: 3vh;
+        height: 4vh;
+        width: 98.6%;
+        align-items: center
+    }
+
+    .functions{
+        font-size: 3.5vw;
+        gap: 3vw;
+        justify-content: space-around;
+    }
+
+    .functions div:nth-child(3){
+        width: 13vw;
+    }
+
+    .functions div:nth-child(4){
+        width: 13vw;
+    }
+
+    .functions div:nth-child(5){
+        width: 13vw;
+    }
+
+    .functions span:nth-child(6){
+        position: relative;
+        bottom: .1vh;
+    }
+
+    .functions img{
+        top: .4vh;
+    }
+
+    .numpad span{
+        font-size: 3.2vw;
+        margin-left: .45vw;
+    }
+
+    .numpad span:nth-child(9){
+        font-size: 4vw;
+    }
+
+    .numpad span:nth-child(10){
+        font-size: 4vw;
+    }
+
+    .numpad span:nth-child(11){
+        font-size: 4vw;
+    }
+
+    .numpad span:nth-child(13){
+        font-size: 4vw;
+    }
+
+    .numpad span:nth-child(14){
+        font-size: 4vw;
+    }
+
+    .numpad span:nth-child(15){
+        font-size: 4vw;
+    }
+
+    .numpad span:nth-child(17){
+        font-size: 4vw;
+    }
+
+    .numpad span:nth-child(18){
+        font-size: 4vw;
+    }
+
+    .numpad span:nth-child(19){
+        font-size: 4vw;
+    }
+
+    .numpad span:nth-child(21){
+        font-size: 5vw;
+    }
+
+    .numpad span:nth-child(22){
+        font-size: 4vw;
+    }
+
+    .numpad span:nth-child(23){
+        font-size: 4vw;
+    }
+
+    .numpad span:nth-child(24){
+        font-size: 4vw;
+    }
+
+    .numpad span:nth-child(20){
+        font-size: 5vw;
+    }
+    .numpad span:nth-child(16){
+        font-size: 5vw;
+    }
+}
+
+/* large phones (425px - 760px) */
+@media only screen and (min-width:425px) and (max-width:480px) and (orientation: portrait){
+    .layout{
+        width: 70vw;
+    }
+
+    .nav .appname{
+        font-size: 3.2vw;
+        top: 20%;
+    }
+
+    .navicons{
+        left: 34vw;
+        gap: 4vw;
+        bottom: .6vh;
+    }
+
+    .minus{
+        top: 1vh;
+    }
+
+    .square{
+        top: 1.2vh;
+    }
+
+    .cross{
+        top: 1.2vh;
+    }
+
+    .calcarea{
+        width: 100%;
+    }
+
+    .components{
+        left: 2vw;
+        gap: 3vw;
+    }
+
+    .components span{
+        font-size: 4vw;
+    }
+
+    .newtab{
+        transform: scale(1.09);
+        width: 6vw;
+    }
+    
+    .history{
+        transform: scale(1.09);
+        left: 24.4vw;
+        width: 6vw;
+    }
+
+    .numzero{
+        font-size:7vw;
+        height: 4.5vh;
+        align-items: center;
+        padding-top: 3vh;
+    }
+
+    .functions{
+        font-size: 3vw;
+        gap: 9vw;
+    }
+
+    .functions span:nth-child(6){
+        position: relative;
+        bottom: .4vh;
+    }
+
+    .functions img{
+        top: .5vh;
+    }
+
+    .numpad span{
+        font-size: 3.5vw;
+        margin-left: .565vw;
+    }
+
+    .numpad span:nth-child(9){
+        font-size: 3.5vw;
+    }
+
+    .numpad span:nth-child(10){
+        font-size: 3.5vw;
+    }
+
+    .numpad span:nth-child(11){
+        font-size: 3.5vw;
+    }
+
+    .numpad span:nth-child(13){
+        font-size: 3.5vw;
+    }
+
+    .numpad span:nth-child(14){
+        font-size: 3.5vw;
+    }
+
+    .numpad span:nth-child(15){
+        font-size: 3.5vw;
+    }
+
+    .numpad span:nth-child(16){
+        font-size: 6vw;
+    }
+
+    .numpad span:nth-child(17){
+        font-size: 3.5vw;
+    }
+
+    .numpad span:nth-child(18){
+        font-size: 3.5vw;
+    }
+
+    .numpad span:nth-child(19){
+        font-size: 3.5vw;
+    }
+
+    .numpad span:nth-child(20){
+        font-size: 5vw;
+    }
+
+    .numpad span:nth-child(21){
+        font-size: 3.8vw;
+    }
+
+    .numpad span:nth-child(22){
+        font-size: 3.5vw;
+    }
+
+    .numpad span:nth-child(23){
+        font-size: 3.5vw;
+    }
+
+    .numpad span:nth-child(24){
+        font-size: 6vw;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:580px) and (orientation: portrait){
+    .layout{
+        width: 60vw;
+    }
+
+    .nav .appname{
+        font-size: 2.6vw;
+        top: 25%;
+    }
+
+    .navicons{
+        left: 28vw;
+        gap: 4vw;
+        bottom: .6vh;
+    }
+
+    .minus{
+        top: 1vh;
+    }
+
+    .square{
+        top: 1.2vh;
+    }
+
+    .cross{
+        top: 1.2vh;
+    }
+
+    .calcarea{
+        width: 100%;
+    }
+
+    .components{
+        left: 2vw;
+        gap: 3vw;
+    }
+
+    .components span{
+        font-size: 3.5vw;
+    }
+
+    .newtab{
+        transform: scale(1.09);
+        width: 4.5vw;
+    }
+    
+    .history{
+        transform: scale(1.09);
+        left: 20vw;
+        width: 5vw;
+    }
+
+    .numzero{
+        font-size:7vw;
+        height: 4.5vh;
+        align-items: center;
+        padding-top: 3vh;
+    }
+
+    .functions{
+        font-size: 2.4vw;
+        gap: 6.5vw;
+    }
+
+    .numpad span{
+        font-size: 2.5vw;
+        margin-left: .565vw;
+    }
+
+    .numpad span:nth-child(9){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(10){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(11){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(13){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(14){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(15){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(16){
+        font-size: 6vw;
+    }
+
+    .numpad span:nth-child(17){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(18){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(19){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(20){
+        font-size: 5vw;
+    }
+
+    .numpad span:nth-child(21){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(22){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(23){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(24){
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (min-width:581px) and (max-width:642px) and (orientation: portrait){
+    .layout{
+        width: 55vw;
+    }
+
+    .nav .appname{
+        font-size: 2.2vw;
+        top: 25%;
+    }
+
+    .navicons{
+        left: 26vw;
+        gap: 4vw;
+        bottom: .6vh;
+    }
+
+    .minus{
+        top: 1vh;
+    }
+
+    .square{
+        top: 1.2vh;
+    }
+
+    .cross{
+        top: 1.2vh;
+    }
+
+    .calcarea{
+        width: 100%;
+    }
+
+    .components{
+        left: 2vw;
+        gap: 3vw;
+    }
+
+    .components span{
+        font-size: 3vw;
+    }
+
+    .newtab{
+        transform: scale(1.09);
+        width: 4.5vw;
+    }
+    
+    .history{
+        transform: scale(1.09);
+        left: 18vw;
+        width: 5vw;
+    }
+
+    .numzero{
+        font-size:7vw;
+        height: 4.5vh;
+        align-items: center;
+        padding-top: 3vh;
+    }
+
+    .functions{
+        font-size: 2.4vw;
+        gap: 6.5vw;
+    }
+
+    .numpad span{
+        font-size: 2.5vw;
+        margin-left: .565vw;
+    }
+
+    .numpad span:nth-child(9){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(10){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(11){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(13){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(14){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(15){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(16){
+        font-size: 6vw;
+    }
+
+    .numpad span:nth-child(17){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(18){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(19){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(20){
+        font-size: 5vw;
+    }
+
+    .numpad span:nth-child(21){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(22){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(23){
+        font-size: 3vw;
+    }
+
+    .numpad span:nth-child(24){
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (min-width:1440px){
+    .cross{
+        /* top: 1.2vh; */
+        left: .5vw;
+    }
+}
