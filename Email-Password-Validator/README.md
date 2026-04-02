@@ -10,7 +10,7 @@ A clean, client-side **Login Form Validator** built with vanilla HTML, CSS, and 
 
 | Valid Input | Invalid Input |
 |---|---|
-| ![Valid](./screenshots/valid-inputs.png.png) | ![Invalid](./screenshots/error-msg-view.png.png) |
+| ![Valid](./screenshots/valid-inputs.png) | ![Invalid](./screenshots/error-msg-view.png) |
 
 ---
 

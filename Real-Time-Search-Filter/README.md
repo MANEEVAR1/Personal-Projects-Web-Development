@@ -10,7 +10,7 @@ A visually rich **user profile card gallery** with live search, built with vanil
 
 | All Cards | Search in Action |
 |---|---|
-| ![All Cards](./screenshots/all-cards.png) | ![Search](./screenshots/search-result.png.png) |
+| ![All Cards](./screenshots/all-cards.png) | ![Search](./screenshots/search-result.png) |
 
 ---
 

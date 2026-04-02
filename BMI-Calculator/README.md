@@ -6,7 +6,6 @@ A clean, responsive **Body Mass Index (BMI) Calculator** built with vanilla HTML
 
 ## 📸 Screenshots
 
-> _Add your screenshots here_
 
 | Desktop View | Mobile View |
 |---|---|
@@ -105,8 +104,6 @@ bmi-calculator/
 - **CSS3** — Custom styling
 - **Tailwind CSS** — Utility-first responsive classes
 - **Vanilla JavaScript** — BMI logic and DOM manipulation
-
----
 
 ---
 
