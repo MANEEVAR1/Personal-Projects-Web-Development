@@ -70,7 +70,7 @@ You can experience the development here along with my other projects ;)
 
 | Form View | Generated Card | Alert Preview |
 |-----------|----------------|---------------|
-| ![Form Screenshot](./Screenshot%202026-03-16%20153304.png) | ![Card Screenshot](./Screenshot%202026-03-16%20125802.png) | ![Alert Preview](./Screenshot%202026-03-16%20125817.png) |
+| ![Form Screenshot](./images/form-view.png) | ![Card Screenshot](./images/generated-card.png) | ![Alert Preview](./images/alert-preview.png) |
 
 ---
 
