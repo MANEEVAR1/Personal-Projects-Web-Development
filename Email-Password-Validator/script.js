@@ -10,7 +10,7 @@ let pwSmall = document.querySelector("#pw-small");
 function emailPwValidator(dets) {
   dets.preventDefault();
   let isValid = true;
-  //* global styles and logic stored outisde any condition. Makes them accessible BY DEFAULT
+  //* global styles and logic stored outside any condition. Makes them accessible BY DEFAULT
   email.style.border = "1px solid #ccc";
   pw.style.border = "1px solid #ccc";
   emailSmall.textContent = "";

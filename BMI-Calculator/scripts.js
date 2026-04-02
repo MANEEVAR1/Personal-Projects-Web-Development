@@ -67,7 +67,7 @@ function bmiCalculator() {
   inputs.forEach(function (input) {
     if (input.type !== "submit") input.value = "";
   });
-  let sec = 180;
+  let sec = 10;
   time = setInterval(() => {
     if (sec > 0) {
       para.textContent = `BMI results disappearing in ${sec} second(s)`;
